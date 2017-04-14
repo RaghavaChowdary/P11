@@ -59,7 +59,9 @@ The following commands are  useful to executing the python shell.
 Step3: The following command is used to execute the python files.
 Command: execfile(‘filename.py’) 
 Graphical Representation Results below.
-MR1GRAPH: we use bargraph 
 
+MR1GRAPH: we use bargraph 
+-----------------------------------------------------------------------------------
+![Alt Map Reduce Problem 01](https://github.com/RaghavaChowdary/P11/blob/master/MAPREDUCE1.PNG?raw=true "MR1")
 
 
