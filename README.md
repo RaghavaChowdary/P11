@@ -58,7 +58,8 @@ The following commands are  useful to executing the python shell.
  one is where you can edit the code and the second one is used to execute the python files.
 Step3: The following command is used to execute the python files.
 Command: execfile(‘filename.py’) 
-
+Graphical Representation Results below.
+MR1GRAPH: we use bargraph 
 
 
 
