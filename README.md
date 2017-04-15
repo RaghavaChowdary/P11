@@ -63,8 +63,14 @@ Graphical Representation Results below.
 MR1GRAPH: we use bargraph 
 -----------------------------------------------------------------------------------
 ![Alt Map Reduce Problem 01](https://github.com/RaghavaChowdary/P11/blob/master/MAPREDUCE1.PNG?raw=true "MR1")
+![Alt Map Reduce Problem 02](https://github.com/RaghavaChowdary/P11/blob/master/reduceroutput.png?raw=true "MR1")
 
-https://github.com/RaghavaChowdary/P11/blob/master/reduceroutput.png
+
+
+
+
+
+
 
 
 
