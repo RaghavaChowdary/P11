@@ -9,17 +9,23 @@ Link to the Data source: https://www.kaggle.com/nsharan/h-1b-visa (Links to an e
 how many H1-B visa are accepted or withdrawn or denied throughout the year 2016.
 # Input: sample input to the Mapper function is listed below.
 Serial_Number	CASE_STATUS	EMPLOYER_NAME	SOC_NAME	JOB_TITLE	FULL_TIME_POSITION	PREVAILING_WAGE	YEAR	WORKSITE	lon	lat
-1	CERTIFIED-WITHDRAWN	UNIVERSITY OF MICHIGAN	BIOCHEMISTS AND BIOPHYSICISTS	POSTDOCTORAL RESEARCH FELLOW	N	36067	2016	"ANN ARBOR, MICHIGAN"	-83.7430378	42.2808256
+1	CERTIFIED-WITHDRAWN	UNIVERSITY OF MICHIGAN	BIOCHEMISTS AND BIOPHYSICISTS	POSTDOCTORAL RESEARCH FELLOW	N	36067	2016	"ANN ARBOR, MICHIGAN"	-83.7430378	42.2808256.
+
+
 The MApper function takes that input from dataset and produce the intermediate key-vaues pairs like (Case_Status,Year) and these intermediate key -value pairs also sorted my mapper function.
-The output of the Mapperfunction is mentioned in the following line.
+
+
+
+# The output of the Mapperfunction is mentioned in the following line.
+
 # CASE_STATUS	YEAR
-CERTIFIED-WITHDRAWN	2016
-CERTIFIED-WITHDRAWN	2016
-CERTIFIED-WITHDRAWN	2016
-CERTIFIED-WITHDRAWN	2016
-WITHDRAWN	2016
-DENIED	2016
-CERTIFIED	2016
+CERTIFIED-WITHDRAWN	                                       2016
+CERTIFIED-WITHDRAWN	                                       2016 
+CERTIFIED-WITHDRAWN	                                       2016
+CERTIFIED-WITHDRAWN                                       	2016
+WITHDRAWN	                                                 2016
+DENIED	                                                    2016
+CERTIFIED	                                                 2016
 
 # Reducer Function
  The reducer function takes the Input from the mapper function and reduce the values.The output of the reduce function is:
