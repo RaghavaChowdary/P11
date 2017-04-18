@@ -5,9 +5,9 @@ DATA & CITATIONS :
 The dataset is .csv format. The format is good for MapReduce problem but face a problem like when we are executing mapper function the length of the each row in the has different values after that we are changed the data format to .txt(tab delimited). 
 Link to the Data source: https://www.kaggle.com/nsharan/h-1b-visa (Links to an external site.)
 
-#MapReduceProblem1: 
+# MapReduceProblem1: 
 how many H1-B visa are accepted or withdrawn or denied throughout the year 2016.
-Input: sample input to the Mapper function is listed below.
+# Input: sample input to the Mapper function is listed below.
 Serial_Number	CASE_STATUS	EMPLOYER_NAME	SOC_NAME	JOB_TITLE	FULL_TIME_POSITION	PREVAILING_WAGE	YEAR	WORKSITE	lon	lat
 1	CERTIFIED-WITHDRAWN	UNIVERSITY OF MICHIGAN	BIOCHEMISTS AND BIOPHYSICISTS	POSTDOCTORAL RESEARCH FELLOW	N	36067	2016	"ANN ARBOR, MICHIGAN"	-83.7430378	42.2808256
 The MApper function takes that input from dataset and produce the intermediate key-vaues pairs like (Case_Status,Year) and these intermediate key -value pairs also sorted my mapper function.
